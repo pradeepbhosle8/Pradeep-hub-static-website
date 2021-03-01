@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Home temp</title>
+	<!-- css  -->
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-- bootstrp  -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+	<!-- font-awsome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<!-- swiper slider css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<!-- google font roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+	<!--=============== favicons demo ===============-->
+	<link rel="shortcut icon" href="./assets/images/favicon.ico">
+
+</head>
+
+<body>
+
+	<!-- loader -->
+	<div class="loader-wrap" style="display: none;">
+		<div class="loader-inner">
+			<div class="loader-inner-circle"></div>
+		</div>
+	</div>
+	<!-- loader close-->
+
+	<div id="main-container">
+
+		<header class="main-header">
+
+			<a href="#" class="logo-holder">
+				<img src="./assets/images/logo.png" alt="Logo">
+			</a>
+
+			<div class="navigation-holder">
+				<nav>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">FAQ</a></li>
+					</ul>
+				</nav>
+			</div>
+
+
+
+			<div class="reg-lg-form" data-toggle="modal" data-target="#loginandRegistration">
+				<i class="far fa-user"></i>
+				Sign In
+			</div>
+
+			<div class="btn-cart">
+				<i class="far fa-heart"></i>
+				<span class="cart-counter green-bg">4</span>
+			</div>
+
+		</header>
+		<!-- header close -->
+
+		<div id="main-wrapper">
+
+			<section class="hero-section">
+
+				<div class="bg-tabs-holder">
+
+					<div class="swiper-container swiper-container-hero">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/tv.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/4.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/images/heroheader/2.jpg" alt="">
+							</div>
+						</div>
+
+						<!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+
+
+						<div class="swiper-pagination"></div>
+						<div class="overlay op7"></div>
+					</div>
+					<!-- <img src="./assets/images/heroheader/1.jpg" alt=""> -->
+
+				</div>
+
+				<div class="container search-container">
+					<div class="intro-item">
+						<div class="section-separator"></div>
+						<div class="intro-title">
+							<h1>Explore Best Places In City
+
+							</h1>
+							<h3>Find some of the best tips from around the city from our partners and friends.</h3>
+						</div>
+
+						<div class="main-search-input  mt-5">
+							<div class="search-container ">
+								<div class="input-wrap">
+
+									<div class="search-input-item">
+										<label for="lookingfor">
+											<i class="fas fa-keyboard"></i>
+										</label>
+										<input type="text" class="search-item" name="" id="lookingfor"
+											placeholder="What are you looking for?">
+									</div>
+
+									<div class="search-input-loaction">
+										<label for="location">
+											<i class="fas fa-map-marker-alt"></i>
+										</label>
+										<input type="text" class="search-item" name="" id="location" autocomplete="off"
+											placeholder="Location">
+									</div>
+									<div class="search-input-category">
+
+										<div class="drop-wraper">
+											<select class="selectpicker form-control" data-live-search="true">
+
+												<option value="none">Chooes your category </option>
+												<optgroup label="Electronics">
+													<option data-tokens="Electronics tv">Tv</option>
+													<option data-tokens="Electronics refrigirator">Refrigirator</option>
+													<option data-tokens="Electronics washing machine">Washing Machine
+													</option>
+													<option data-tokens="Electronics mobile"> Mobile</option>
+													<option data-tokens="Electronics air conditioners">Air Conditioners
+													</option>
+												</optgroup>
+												<optgroup label="Books">
+													<option data-tokens="books ficitional">Fictional</option>
+													<option data-tokens="books non fictional">Non Fictional</option>
+												</optgroup>
+												<optgroup label="Sports">
+													<option data-tokens="sports bicycle">Bicycle</option>
+													<option data-tokens="sports skates">Skates</option>
+												</optgroup>
+												<optgroup label="Music">
+													<option data-tokens="music harmonium">Harmonium</option>
+													<option data-tokens="music piono">Piano</option>
+													<option data-tokens="music violin">Violin</option>
+													<option data-tokens="music guitar">Guitar</option>
+												</optgroup>
+
+												<optgroup label="Services">
+													<option data-tokens="services housekeeping">Housekeeping</option>
+													<option data-tokens="services facial">Facial</option>
+													<option data-tokens="services carrent">Car Rental</option>
+													<option data-tokens="services pest-control">Pest Control</option>
+													<option data-tokens="services security-services">Security Services
+													</option>
+
+												</optgroup>
+
+											</select>
+										</div>
+
+
+
+
+
+
+									</div>
+
+									<button type="submit" class="btn btn-info main-search-button">
+										<i class="fas fa-search"></i>
+										Search </button>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header-sec-link">
+					<a href="#sec1" class="custom-scroll-link"><i class="fas fa-angle-double-down"></i></a>
+				</div>
+			</section>
+
+			<section class="topDealers slw-sec" id="sec1">
+				<div class="container">
+					<div class="row">
+						<div class="section-title">
+							<h2>Find What You Want​</h2>
+							<div class="section-subtitle">
+								<span>Explore Our categories</span>
+								<!-- Discover top-rated local businesses -->
+							</div>
+							<div class="section-separator"></div>
+							<div class="section-title-desc">Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+								phaedrum</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="container-fluid ">
+
+
+
+
+
+
+					<div class="swiper-container swiper-listing">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/gym.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title"> Electronics Tv</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/2.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Refrigirator</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/buti.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Washing Machine</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/rest.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Mobile</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/shop.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Air Conditioners</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/gym.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Books</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/2.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Bicycle</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/buti.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Skates</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/rest.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Harmonium</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/1.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Piano</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/2.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Violin</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/shop.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Guitar</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/shop.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Housekeeping</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/buti.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Facial</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/rest.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Car Rental</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/1.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Pest Control</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+							<div class="swiper-slide">
+								<article class="items listings-wrapper">
+									<div class="listing-item-content">
+										<div class="banner-image">
+											<img src="./assets/images/category/2.jpg" alt="" class="listing-img">
+										</div>
+										<div class="banner-content">
+											<h3 class="banner-content-title">Security Services</h3>
+											<!-- <div class="number-listing">4</div> -->
+											<a href="" class="link-item">
+												<i class="fas fa-arrow-right"></i>
+											</a>
+
+										</div>
+										<a href="" class="link-item-overlay"></a>
+									</div>
+								</article>
+							</div>
+
+
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+
+			</section>
+
+			<section class="top-dealear-listing slw-sec gray-bg">
+				<div class="container">
+					<div class="row">
+						<div class="section-title">
+							<h2>Exploring Top Listings</h2>
+							<div class="section-subtitle">
+								<span>Discover top-rated local businesses</span>
+								<!-- Discover top-rated local businesses -->
+							</div>
+							<div class="section-separator"></div>
+							<div class="section-title-desc">Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+								phaedrum</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12 ">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-sm-6 col-12">
+							<div class="single-listing">
+								<figure>
+									<a href="">
+										<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+										<div class="list-overlay"></div>
+									</a>
+									<div class="readmore">
+										<a href="" class="btn btn-primary">Read More</a>
+									</div>
+									<div class="featured-tour">
+										<a href="" class="fas fa-star"></a>
+									</div>
+									<div class="list-like">
+										<a href="" class="fas fa-heart"></a>
+									</div>
+									<div class="listings-tag">
+										<a href="">Restaurants</a>
+									</div>
+									<div class="price">
+										<a href="">From Rs.500/-</a>
+									</div>
+								</figure>
+								<div class="listings-content">
+									<h3>
+										Lorem ipsum dolor sit.
+									</h3>
+									<div class="location">
+										<span>
+											<i class="fas fa-map-marker-alt"></i>
+											Lorem ipsum dolor sit amet consectetur.
+										</span>
+									</div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius quae,
+										quidem mollitia sit provident?</p>
+									<div class="rating">
+										<ul>
+											<li>Rating:</li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="view-all">
+							<a href="" class="btn btn-primary">View All</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="top-dealear-listing placemost-visited slw-sec">
+				<div class="container">
+					<div class="row">
+						<div class="section-title">
+							<h2>Most Visited Places</h2>
+							<div class="section-subtitle">
+								<span>Discover top-rated local businesses</span>
+								<!-- Discover top-rated local businesses -->
+							</div>
+							<div class="section-separator"></div>
+							<div class="section-title-desc">Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+								phaedrum</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid">
+					<div class="place-slider">
+
+						<div class="swiper-container swiper-mostvisite">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="col-lg-12 col-md-12">
+										<div class="single-listing">
+											<figure class="radius-top-rl">
+												<a href="">
+													<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+													<div class="list-overlay"></div>
+												</a>
+												<div class="readmore">
+													<a href="" class="btn btn-primary">Read More</a>
+												</div>
+												<!-- <div class="featured-tour">
+													<a href="" class="fas fa-star"></a>
+												</div> -->
+												<div class="list-like">
+													<a href="" class="fas fa-heart"></a>
+												</div>
+												<div class="listings-tag">
+													<a href="">Restaurants</a>
+													<div class="location text-white mt-2">
+														<span>
+															<i class="fas fa-map-marker-alt mr-2"></i>
+															Lorem ipsum dolor sit amet consectetur.
+														</span>
+													</div>
+													<div class="rating" style="border: none;">
+														<ul>
+															<li class="text-white">Rating:</li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+															<li><i class="fas fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+												<div class="price">
+													<a href="">From Rs.500/-</a>
+												</div>
+											</figure>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination"></div>
+						</div>
+
+
+					</div>
+				</div>
+
+			</section>
+
+			<section class="top-dealear-listing slw-sec gray-bg">
+				<div class="container">
+					<div class="row">
+						<div class="section-title">
+							<h2>Exploring All Listings</h2>
+							<div class="section-subtitle">
+								<span>Discover top-rated local businesses</span>
+								<!-- Discover top-rated local businesses -->
+							</div>
+							<div class="section-separator"></div>
+							<div class="section-title-desc">Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+								phaedrum</div>
+						</div>
+					</div>
+				</div>
+				<div class="animate-grid">
+					<div class="container">
+						<div class="">
+							<div class="col-xs-12">
+								<div class="categories">
+									<ul>
+										<li>
+											<ol>
+												<li><a href="#" data-filter="*" class="active">All</a></li>
+												<li><a href="#" data-filter=".Electronics">Electronics</a></li>
+												<li><a href="#" data-filter=".Books">Books</a></li>
+												<li><a href="#" data-filter=".Sports">Sporrts</a></li>
+												<li><a href="#" data-filter=".Music">Music</a></li>
+												<li><a href="#" data-filter=".Services">Services </a></li>
+											</ol>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row gallary-thumbs">
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Electronics">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Electronics">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Books">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Sports">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Music">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-lg-4 col-sm-6 col-12 Services">
+								<div class="single-listing">
+									<figure>
+										<a href="">
+											<img src="./assets/images/topdealer/listing-img1.jpg" alt="">
+											<div class="list-overlay"></div>
+										</a>
+										<div class="readmore">
+											<a href="" class="btn btn-primary">Read More</a>
+										</div>
+										<div class="featured-tour">
+											<a href="" class="fas fa-star"></a>
+										</div>
+										<div class="list-like">
+											<a href="" class="fas fa-heart"></a>
+										</div>
+										<div class="listings-tag">
+											<a href="">Restaurants</a>
+										</div>
+										<div class="price">
+											<a href="">From Rs.500/-</a>
+										</div>
+									</figure>
+									<div class="listings-content">
+										<h3>
+											Lorem ipsum dolor sit.
+										</h3>
+										<div class="location">
+											<span>
+												<i class="fas fa-map-marker-alt"></i>
+												Lorem ipsum dolor sit amet consectetur.
+											</span>
+										</div>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius
+											quae, quidem mollitia sit provident?</p>
+										<div class="rating">
+											<ul>
+												<li>Rating:</li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+												<li><i class="fas fa-star"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="view-all">
+								<a href="" class="btn btn-primary">View All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="advertisement slw-sec">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="text-white">Get started now. Advertisement Here.... </h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		</div>
+
+		<footer class="fdb-block footer-large bgfooter">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-7">
+						<ul class="nav justify-content-center justify-content-md-start">
+							<li class="nav-item">
+								<a class="nav-link active text-white" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Terms</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">About</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-12 col-md-5 mt-4 mt-md-0 text-center text-md-right">
+						<a href="#" class="mx-2 text-white"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+						<a href="#" class="mx-2 text-white"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+						<a href="#" class="mx-2 text-white"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+						<a href="#" class="mx-2 text-white"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+						<a href="#" class="mx-2 text-white"><i class="fab fa-google" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+
+
+	<!-- login and registration form modal form -->
+	<!-- Modal -->
+	<div class="modal fade" id="loginandRegistration" tabindex="-1" role="dialog"
+		aria-labelledby="loginandRegistrationTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h5 class="modal-title main-loginRegister_title" id="exampleModalLongTitle">Welcome To <span
+							style="color: #4faff8;">Pradeep Hub</span></h5>
+					<button type="button" class="close close-reg" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+
+				<div class="modal-body loginRegiModalPop">
+
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="login-tab" data-toggle="pill" href="#login" role="tab"
+								aria-controls="login" aria-selected="true">
+								<i class="fas fa-sign-in-alt"></i>
+								Login
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="registration-tab" data-toggle="pill" href="#registration" role="tab"
+								aria-controls="registration" aria-selected="false">
+								<i class="fas fa-user-plus"></i>
+								Registration
+							</a>
+						</li>
+
+					</ul>
+
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+							<form class="loginfrm">
+								<div class="form-group">
+									<label for="username">Username or Email Address <span
+											class="text-danger">*</span></label>
+									<input type="text" name="" id="username" class="form-control" placeholder="Username"
+										autocomplete="off">
+								</div>
+
+								<div class="form-group">
+									<label for="password">Password <span class="text-danger">*</span></label>
+									<input type="password" name="" id="password" class="form-control"
+										placeholder="Password">
+								</div>
+								<div class="form-check my-3">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Remember me</label>
+								</div>
+
+								<div class="form-action">
+									<button type="submit" class="btn btn-primary btn-block">Log In</button>
+								</div>
+								<div class="lost-password">
+									<a href="">Lost Your Password?</a>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
+							<form class="registrationfrm">
+								<div class="form-group">
+									<label for="fullname">Full Name <span class="text-danger">*</span></label>
+									<input type="text" name="" id="fullname" class="form-control"
+										placeholder="Full Name" autocomplete="off">
+								</div>
+
+								<div class="form-group">
+									<label for="email">Email Address <span class="text-danger">*</span></label>
+									<input type="text" name="" id="email" class="form-control"
+										placeholder="Email Address" autocomplete="off">
+								</div>
+
+								<div class="form-group">
+									<label for="password">Password <span class="text-danger">*</span></label>
+									<input type="password" name="" id="password" class="form-control"
+										placeholder="Password">
+								</div>
+								<div class="form-check my-3">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">I agree to the <a
+											href="">Privacy Policy</a></label>
+								</div>
+
+								<div class="form-check my-3">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">I agree to the <a href="">Terms
+											and Conditions</a></label>
+								</div>
+
+								<div class="form-action">
+									<button type="submit" class="btn btn-primary btn-block"> Register </button>
+								</div>
+
+							</form>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- login and registration form modal form close -->
+
+	<!-- script section -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<!-- Isotope plugin for filtering with animation -->
+	<script src="https://unpkg.com/isotope-layout@3.0.3/dist/isotope.pkgd.js"></script>
+
+	<script src="./assets/js/custome.js"></script>
+
+
+</body>
+
+</html>

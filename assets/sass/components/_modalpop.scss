@@ -1,0 +1,81 @@
+#loginandRegistration{
+
+    .main-loginRegister_title{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 54px;
+        line-height: 54px;
+        padding-left: 30px;
+        color: #fff;
+        text-align: left;
+        background: #4E65A3;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        z-index: 2;
+    }
+    .close-reg {
+        position: absolute;
+        top: 16;
+        right: 20px;
+        // width: 54px;
+        // height: 54px;
+        // line-height: 54px;
+        cursor: pointer;
+        z-index: 3;
+        color: #fff;
+        // border-left: 1px solid rgba(255,255,255,0.11);
+        font-size: 18px;
+    }
+
+    .loginRegiModalPop{
+
+        ul{
+            padding: 15px 0 0;
+          
+
+            li{
+                width: 50%;
+                border-bottom: 1px solid #00000014;
+                text-align: center;
+                a{
+                    color: #7d93b2;
+                    font-size: 13px;
+                    display: block;
+                    font-weight: 600;
+                    padding: 14px 0;
+                    i{
+                        margin-right: 5px;
+                        color: #4faff8;
+                    }
+
+                    
+                }
+                .active{
+                
+                    border-bottom: 3px solid #4DB7FE;
+                    background-color: transparent;
+                }
+
+
+            }
+        }
+    }
+    .loginfrm ,.registrationfrm{
+        font-size: 12px;
+    font-weight: 600;
+    color: #7d93b2;
+    padding: 10px;
+    }
+    .lost-password{
+        margin-top: 10px;
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    a{
+        color: #7d93b2;
+    }
+    }
+}
+

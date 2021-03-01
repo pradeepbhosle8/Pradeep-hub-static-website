@@ -1,0 +1,19 @@
+$loader-bg:#2e3f6e;
+$loader-circle-border:#4DB7FE;
+$white-bg:#fff;
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.gray-bg {
+    background: #fbfbfb;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
